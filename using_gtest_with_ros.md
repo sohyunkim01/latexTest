@@ -28,6 +28,7 @@ int main(int argc, char **argv){
 ```
 
 3. 작성한 코드를 test 폴더에 저장
+<img src="img/add_utest.png" width="150">
 
 4. CMakeLists.txt 파일에 아래를 추가
 ```makefile
