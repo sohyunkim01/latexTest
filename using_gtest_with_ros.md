@@ -44,3 +44,7 @@ catkin_make run_tests
 ```
 6. 아래와 같이 테스트 결과를 확인할 수 있음
 <img src="img/testResult.png" width="600">
+
+---
+[gtest - ROS Wiki] (http://wiki.ros.org/gtest) </br>
+[블로그 글] (http://ysonggit.github.io/coding/2014/12/19/use-gtest-in-ros-program.html) </br>
