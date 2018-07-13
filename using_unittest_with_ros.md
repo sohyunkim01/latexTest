@@ -92,3 +92,6 @@ source /opt/ros/kinetic/setup.bash
 catkin_make
 source ~/catkin_ws/devel/setup.bash
 ```
+#### devel/lib/python2.7/dist-packages 에 설치가 되었는데 catkin_make run_tests에서만 import error 나는 경우
+- 참고: https://github.com/ros/catkin/issues/841
+- 캐시된 pythonpath를 사용해서 나는 에러로 echo \$PYTHONPATH 가 업데이트 되었는지 확인 후 cmake 파일 수정해서 다시 빌드 후 실행하면 업데이트 된 pythonpath 를 사용함
